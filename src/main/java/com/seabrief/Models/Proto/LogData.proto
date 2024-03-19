@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+package com.seabrief.Models;
+
+option java_outer_classname = "LogData";
+
+message ErrorResponse {
+  string message = 1;
+}
+
+message Metadata {
+  int32 id = 1;
+  int32 signal = 2;
+  int64 start = 3;
+  int64 end = 4;
+}
+
+message MetadataResponse {
+  repeated Metadata metadata = 1;
+}
+
+message Signal {
+  string name = 1;
+  string description = 2;
+  string path = 3;
+}
+
+message SignalsResponse {
+  repeated Signal signals = 1;
+}
+
+message RangeRequest {
+  uint64 from = 1;
+  uint64 to = 2;
+}
+
+message BoundsResponse {
+  uint64 from = 1;
+  uint64 to = 2;
+}
+
+message TimeseriesResponse {   
+  repeated int64 times = 1;
+  repeated double values = 2;
+}
+
+message DatabaseFile {
+  string name = 1;
+  int64 size = 2;
+}
+
+message DatabaseResponse {
+    repeated DatabaseFile databases = 1;
+}
+
+message LogExtractRequest {
+  string name = 1;
+  optional double freq = 2;
+  uint64 from = 3;
+  uint64 to = 4;
+}
+
+message LogExtractResponse {
+  string name = 1;
+  string location = 2;
+  uint64 total = 3;
+  uint64 uploaded = 4;
+}
