@@ -207,6 +207,7 @@ public final class MonitorData {
       return true;
     }
 
+    @SuppressWarnings("unchecked")
     @java.lang.Override
     public int hashCode() {
       if (memoizedHashCode != 0) {
@@ -834,6 +835,7 @@ public final class MonitorData {
       return true;
     }
 
+    @SuppressWarnings("unchecked")
     @java.lang.Override
     public int hashCode() {
       if (memoizedHashCode != 0) {
@@ -1025,6 +1027,7 @@ public final class MonitorData {
         }
       }
 
+      @SuppressWarnings("unused")
       private void buildPartial0(com.seabrief.Models.MonitorData.DiskPayload result) {
         int from_bitField0_ = bitField0_;
       }
@@ -1687,6 +1690,7 @@ public final class MonitorData {
       return true;
     }
 
+    @SuppressWarnings("unchecked")
     @java.lang.Override
     public int hashCode() {
       if (memoizedHashCode != 0) {
@@ -2396,6 +2400,7 @@ public final class MonitorData {
       return true;
     }
 
+    @SuppressWarnings("unchecked")
     @java.lang.Override
     public int hashCode() {
       if (memoizedHashCode != 0) {
@@ -2588,6 +2593,7 @@ public final class MonitorData {
       }
 
       private void buildPartial0(com.seabrief.Models.MonitorData.AppPayload result) {
+        @SuppressWarnings("unused")
         int from_bitField0_ = bitField0_;
       }
 
@@ -3189,6 +3195,7 @@ public final class MonitorData {
       return true;
     }
 
+    @SuppressWarnings("unchecked")
     @java.lang.Override
     public int hashCode() {
       if (memoizedHashCode != 0) {

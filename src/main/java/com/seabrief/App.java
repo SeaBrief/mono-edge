@@ -2,6 +2,10 @@ package com.seabrief;
 
 import java.time.Duration;
 
+import com.seabrief.Logger.Endpoints.GetBounds;
+import com.seabrief.Logger.Endpoints.GetDatabases;
+import com.seabrief.Logger.Endpoints.GetDefinitions;
+import com.seabrief.Logger.Endpoints.GetHistoric;
 import com.seabrief.Monitor.Jobs.AppCheck;
 import com.seabrief.Monitor.Jobs.DiskSpace;
 import com.seabrief.Monitor.Jobs.Heartbeat;
@@ -33,10 +37,13 @@ public class App {
                     .subscribe("external/log/+/req")
                     .subscribe("external/log/+/+/req");
 
-            // MQTTClient.getInstance()
-            // .addMessageReceiver("local/health", new Healthcheck());
+            MQTTClient.getInstance()
+                    .addMessageReceiver("external/log/bounds/req", new GetBounds())
+                    .addMessageReceiver("external/log/defs/req", new GetDefinitions())
+                    .addMessageReceiver("external/log/database/req", new GetDatabases())
+                    .addMessageReceiver("external/log/hist/.+/req", new GetHistoric());
         } catch (Exception ex) {
-
+            // TODO: print trace for debugging
         } finally {
             // TODO: Clean up in event of crash
         }
