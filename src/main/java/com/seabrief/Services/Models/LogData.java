@@ -2,7 +2,7 @@
 // source: src/main/java/com/seabrief/Models/Proto/LogData.proto
 // NOPMD
 
-package com.seabrief.Models;
+package com.seabrief.Services.Models;
 
 @SuppressWarnings("unchecked")
 public final class LogData {
@@ -57,15 +57,15 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_ErrorResponse_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_ErrorResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_ErrorResponse_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_ErrorResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.ErrorResponse.class, com.seabrief.Models.LogData.ErrorResponse.Builder.class);
+              com.seabrief.Services.Models.LogData.ErrorResponse.class, com.seabrief.Services.Models.LogData.ErrorResponse.Builder.class);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 1;
@@ -146,10 +146,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.ErrorResponse)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.ErrorResponse)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.ErrorResponse other = (com.seabrief.Models.LogData.ErrorResponse) obj;
+      com.seabrief.Services.Models.LogData.ErrorResponse other = (com.seabrief.Services.Models.LogData.ErrorResponse) obj;
 
       if (!getMessage()
           .equals(other.getMessage())) return false;
@@ -172,69 +172,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.ErrorResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.ErrorResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.ErrorResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -247,7 +247,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.ErrorResponse prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.ErrorResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -268,18 +268,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.ErrorResponse)
-        com.seabrief.Models.LogData.ErrorResponseOrBuilder {
+        com.seabrief.Services.Models.LogData.ErrorResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_ErrorResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_ErrorResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_ErrorResponse_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_ErrorResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.ErrorResponse.class, com.seabrief.Models.LogData.ErrorResponse.Builder.class);
+                com.seabrief.Services.Models.LogData.ErrorResponse.class, com.seabrief.Services.Models.LogData.ErrorResponse.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.ErrorResponse.newBuilder()
@@ -303,17 +303,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_ErrorResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_ErrorResponse_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.ErrorResponse getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.ErrorResponse.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.ErrorResponse getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.ErrorResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.ErrorResponse build() {
-        com.seabrief.Models.LogData.ErrorResponse result = buildPartial();
+      public com.seabrief.Services.Models.LogData.ErrorResponse build() {
+        com.seabrief.Services.Models.LogData.ErrorResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -321,14 +321,14 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.ErrorResponse buildPartial() {
-        com.seabrief.Models.LogData.ErrorResponse result = new com.seabrief.Models.LogData.ErrorResponse(this);
+      public com.seabrief.Services.Models.LogData.ErrorResponse buildPartial() {
+        com.seabrief.Services.Models.LogData.ErrorResponse result = new com.seabrief.Services.Models.LogData.ErrorResponse(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.seabrief.Models.LogData.ErrorResponse result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.ErrorResponse result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.message_ = message_;
@@ -337,16 +337,16 @@ public final class LogData {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.ErrorResponse) {
-          return mergeFrom((com.seabrief.Models.LogData.ErrorResponse)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.ErrorResponse) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.ErrorResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.ErrorResponse other) {
-        if (other == com.seabrief.Models.LogData.ErrorResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.ErrorResponse other) {
+        if (other == com.seabrief.Services.Models.LogData.ErrorResponse.getDefaultInstance()) return this;
         if (!other.getMessage().isEmpty()) {
           message_ = other.message_;
           bitField0_ |= 0x00000001;
@@ -488,12 +488,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.ErrorResponse)
-    private static final com.seabrief.Models.LogData.ErrorResponse DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.ErrorResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.ErrorResponse();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.ErrorResponse();
     }
 
-    public static com.seabrief.Models.LogData.ErrorResponse getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.ErrorResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -529,7 +529,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.ErrorResponse getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.ErrorResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -587,15 +587,15 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_Metadata_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_Metadata_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_Metadata_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_Metadata_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.Metadata.class, com.seabrief.Models.LogData.Metadata.Builder.class);
+              com.seabrief.Services.Models.LogData.Metadata.class, com.seabrief.Services.Models.LogData.Metadata.Builder.class);
     }
 
     public static final int ID_FIELD_NUMBER = 1;
@@ -703,10 +703,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.Metadata)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.Metadata)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.Metadata other = (com.seabrief.Models.LogData.Metadata) obj;
+      com.seabrief.Services.Models.LogData.Metadata other = (com.seabrief.Services.Models.LogData.Metadata) obj;
 
       if (getId()
           != other.getId()) return false;
@@ -742,69 +742,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.Metadata parseFrom(
+    public static com.seabrief.Services.Models.LogData.Metadata parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.Metadata parseFrom(
+    public static com.seabrief.Services.Models.LogData.Metadata parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.Metadata parseFrom(
+    public static com.seabrief.Services.Models.LogData.Metadata parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.Metadata parseFrom(
+    public static com.seabrief.Services.Models.LogData.Metadata parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.Metadata parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.Metadata parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.Metadata parseFrom(
+    public static com.seabrief.Services.Models.LogData.Metadata parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.Metadata parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.Metadata parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.Metadata parseFrom(
+    public static com.seabrief.Services.Models.LogData.Metadata parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.Metadata parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.Metadata parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.Metadata parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.Metadata parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.Metadata parseFrom(
+    public static com.seabrief.Services.Models.LogData.Metadata parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.Metadata parseFrom(
+    public static com.seabrief.Services.Models.LogData.Metadata parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -817,7 +817,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.Metadata prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.Metadata prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -838,18 +838,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.Metadata)
-        com.seabrief.Models.LogData.MetadataOrBuilder {
+        com.seabrief.Services.Models.LogData.MetadataOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_Metadata_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_Metadata_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_Metadata_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_Metadata_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.Metadata.class, com.seabrief.Models.LogData.Metadata.Builder.class);
+                com.seabrief.Services.Models.LogData.Metadata.class, com.seabrief.Services.Models.LogData.Metadata.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.Metadata.newBuilder()
@@ -876,17 +876,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_Metadata_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_Metadata_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.Metadata getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.Metadata.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.Metadata getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.Metadata.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.Metadata build() {
-        com.seabrief.Models.LogData.Metadata result = buildPartial();
+      public com.seabrief.Services.Models.LogData.Metadata build() {
+        com.seabrief.Services.Models.LogData.Metadata result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -894,14 +894,14 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.Metadata buildPartial() {
-        com.seabrief.Models.LogData.Metadata result = new com.seabrief.Models.LogData.Metadata(this);
+      public com.seabrief.Services.Models.LogData.Metadata buildPartial() {
+        com.seabrief.Services.Models.LogData.Metadata result = new com.seabrief.Services.Models.LogData.Metadata(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.seabrief.Models.LogData.Metadata result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.Metadata result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.id_ = id_;
@@ -919,16 +919,16 @@ public final class LogData {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.Metadata) {
-          return mergeFrom((com.seabrief.Models.LogData.Metadata)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.Metadata) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.Metadata)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.Metadata other) {
-        if (other == com.seabrief.Models.LogData.Metadata.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.Metadata other) {
+        if (other == com.seabrief.Services.Models.LogData.Metadata.getDefaultInstance()) return this;
         if (other.getId() != 0) {
           setId(other.getId());
         }
@@ -1148,12 +1148,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.Metadata)
-    private static final com.seabrief.Models.LogData.Metadata DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.Metadata DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.Metadata();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.Metadata();
     }
 
-    public static com.seabrief.Models.LogData.Metadata getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.Metadata getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1189,7 +1189,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.Metadata getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.Metadata getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1202,12 +1202,12 @@ public final class LogData {
     /**
      * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
      */
-    java.util.List<com.seabrief.Models.LogData.Metadata> 
+    java.util.List<com.seabrief.Services.Models.LogData.Metadata> 
         getMetadataList();
     /**
      * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
      */
-    com.seabrief.Models.LogData.Metadata getMetadata(int index);
+    com.seabrief.Services.Models.LogData.Metadata getMetadata(int index);
     /**
      * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
      */
@@ -1215,12 +1215,12 @@ public final class LogData {
     /**
      * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
      */
-    java.util.List<? extends com.seabrief.Models.LogData.MetadataOrBuilder> 
+    java.util.List<? extends com.seabrief.Services.Models.LogData.MetadataOrBuilder> 
         getMetadataOrBuilderList();
     /**
      * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
      */
-    com.seabrief.Models.LogData.MetadataOrBuilder getMetadataOrBuilder(
+    com.seabrief.Services.Models.LogData.MetadataOrBuilder getMetadataOrBuilder(
         int index);
   }
   /**
@@ -1248,32 +1248,32 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_MetadataResponse_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_MetadataResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_MetadataResponse_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_MetadataResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.MetadataResponse.class, com.seabrief.Models.LogData.MetadataResponse.Builder.class);
+              com.seabrief.Services.Models.LogData.MetadataResponse.class, com.seabrief.Services.Models.LogData.MetadataResponse.Builder.class);
     }
 
     public static final int METADATA_FIELD_NUMBER = 1;
     @SuppressWarnings("serial")
-    private java.util.List<com.seabrief.Models.LogData.Metadata> metadata_;
+    private java.util.List<com.seabrief.Services.Models.LogData.Metadata> metadata_;
     /**
      * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<com.seabrief.Models.LogData.Metadata> getMetadataList() {
+    public java.util.List<com.seabrief.Services.Models.LogData.Metadata> getMetadataList() {
       return metadata_;
     }
     /**
      * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends com.seabrief.Models.LogData.MetadataOrBuilder> 
+    public java.util.List<? extends com.seabrief.Services.Models.LogData.MetadataOrBuilder> 
         getMetadataOrBuilderList() {
       return metadata_;
     }
@@ -1288,14 +1288,14 @@ public final class LogData {
      * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
      */
     @java.lang.Override
-    public com.seabrief.Models.LogData.Metadata getMetadata(int index) {
+    public com.seabrief.Services.Models.LogData.Metadata getMetadata(int index) {
       return metadata_.get(index);
     }
     /**
      * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
      */
     @java.lang.Override
-    public com.seabrief.Models.LogData.MetadataOrBuilder getMetadataOrBuilder(
+    public com.seabrief.Services.Models.LogData.MetadataOrBuilder getMetadataOrBuilder(
         int index) {
       return metadata_.get(index);
     }
@@ -1340,10 +1340,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.MetadataResponse)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.MetadataResponse)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.MetadataResponse other = (com.seabrief.Models.LogData.MetadataResponse) obj;
+      com.seabrief.Services.Models.LogData.MetadataResponse other = (com.seabrief.Services.Models.LogData.MetadataResponse) obj;
 
       if (!getMetadataList()
           .equals(other.getMetadataList())) return false;
@@ -1367,69 +1367,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.MetadataResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.MetadataResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.MetadataResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1442,7 +1442,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.MetadataResponse prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.MetadataResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -1463,18 +1463,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.MetadataResponse)
-        com.seabrief.Models.LogData.MetadataResponseOrBuilder {
+        com.seabrief.Services.Models.LogData.MetadataResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_MetadataResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_MetadataResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_MetadataResponse_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_MetadataResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.MetadataResponse.class, com.seabrief.Models.LogData.MetadataResponse.Builder.class);
+                com.seabrief.Services.Models.LogData.MetadataResponse.class, com.seabrief.Services.Models.LogData.MetadataResponse.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.MetadataResponse.newBuilder()
@@ -1504,17 +1504,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_MetadataResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_MetadataResponse_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.MetadataResponse getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.MetadataResponse.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.MetadataResponse getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.MetadataResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.MetadataResponse build() {
-        com.seabrief.Models.LogData.MetadataResponse result = buildPartial();
+      public com.seabrief.Services.Models.LogData.MetadataResponse build() {
+        com.seabrief.Services.Models.LogData.MetadataResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -1522,15 +1522,15 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.MetadataResponse buildPartial() {
-        com.seabrief.Models.LogData.MetadataResponse result = new com.seabrief.Models.LogData.MetadataResponse(this);
+      public com.seabrief.Services.Models.LogData.MetadataResponse buildPartial() {
+        com.seabrief.Services.Models.LogData.MetadataResponse result = new com.seabrief.Services.Models.LogData.MetadataResponse(this);
         buildPartialRepeatedFields(result);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartialRepeatedFields(com.seabrief.Models.LogData.MetadataResponse result) {
+      private void buildPartialRepeatedFields(com.seabrief.Services.Models.LogData.MetadataResponse result) {
         if (metadataBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             metadata_ = java.util.Collections.unmodifiableList(metadata_);
@@ -1542,23 +1542,23 @@ public final class LogData {
         }
       }
 
-      private void buildPartial0(com.seabrief.Models.LogData.MetadataResponse result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.MetadataResponse result) {
         @SuppressWarnings("unused")
         int from_bitField0_ = bitField0_;
       }
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.MetadataResponse) {
-          return mergeFrom((com.seabrief.Models.LogData.MetadataResponse)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.MetadataResponse) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.MetadataResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.MetadataResponse other) {
-        if (other == com.seabrief.Models.LogData.MetadataResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.MetadataResponse other) {
+        if (other == com.seabrief.Services.Models.LogData.MetadataResponse.getDefaultInstance()) return this;
         if (metadataBuilder_ == null) {
           if (!other.metadata_.isEmpty()) {
             if (metadata_.isEmpty()) {
@@ -1612,9 +1612,9 @@ public final class LogData {
                 done = true;
                 break;
               case 10: {
-                com.seabrief.Models.LogData.Metadata m =
+                com.seabrief.Services.Models.LogData.Metadata m =
                     input.readMessage(
-                        com.seabrief.Models.LogData.Metadata.parser(),
+                        com.seabrief.Services.Models.LogData.Metadata.parser(),
                         extensionRegistry);
                 if (metadataBuilder_ == null) {
                   ensureMetadataIsMutable();
@@ -1641,22 +1641,22 @@ public final class LogData {
       }
       private int bitField0_;
 
-      private java.util.List<com.seabrief.Models.LogData.Metadata> metadata_ =
+      private java.util.List<com.seabrief.Services.Models.LogData.Metadata> metadata_ =
         java.util.Collections.emptyList();
       private void ensureMetadataIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          metadata_ = new java.util.ArrayList<com.seabrief.Models.LogData.Metadata>(metadata_);
+          metadata_ = new java.util.ArrayList<com.seabrief.Services.Models.LogData.Metadata>(metadata_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          com.seabrief.Models.LogData.Metadata, com.seabrief.Models.LogData.Metadata.Builder, com.seabrief.Models.LogData.MetadataOrBuilder> metadataBuilder_;
+          com.seabrief.Services.Models.LogData.Metadata, com.seabrief.Services.Models.LogData.Metadata.Builder, com.seabrief.Services.Models.LogData.MetadataOrBuilder> metadataBuilder_;
 
       /**
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
-      public java.util.List<com.seabrief.Models.LogData.Metadata> getMetadataList() {
+      public java.util.List<com.seabrief.Services.Models.LogData.Metadata> getMetadataList() {
         if (metadataBuilder_ == null) {
           return java.util.Collections.unmodifiableList(metadata_);
         } else {
@@ -1676,7 +1676,7 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
-      public com.seabrief.Models.LogData.Metadata getMetadata(int index) {
+      public com.seabrief.Services.Models.LogData.Metadata getMetadata(int index) {
         if (metadataBuilder_ == null) {
           return metadata_.get(index);
         } else {
@@ -1687,7 +1687,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
       public Builder setMetadata(
-          int index, com.seabrief.Models.LogData.Metadata value) {
+          int index, com.seabrief.Services.Models.LogData.Metadata value) {
         if (metadataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1704,7 +1704,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
       public Builder setMetadata(
-          int index, com.seabrief.Models.LogData.Metadata.Builder builderForValue) {
+          int index, com.seabrief.Services.Models.LogData.Metadata.Builder builderForValue) {
         if (metadataBuilder_ == null) {
           ensureMetadataIsMutable();
           metadata_.set(index, builderForValue.build());
@@ -1717,7 +1717,7 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
-      public Builder addMetadata(com.seabrief.Models.LogData.Metadata value) {
+      public Builder addMetadata(com.seabrief.Services.Models.LogData.Metadata value) {
         if (metadataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1734,7 +1734,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
       public Builder addMetadata(
-          int index, com.seabrief.Models.LogData.Metadata value) {
+          int index, com.seabrief.Services.Models.LogData.Metadata value) {
         if (metadataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1751,7 +1751,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
       public Builder addMetadata(
-          com.seabrief.Models.LogData.Metadata.Builder builderForValue) {
+          com.seabrief.Services.Models.LogData.Metadata.Builder builderForValue) {
         if (metadataBuilder_ == null) {
           ensureMetadataIsMutable();
           metadata_.add(builderForValue.build());
@@ -1765,7 +1765,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
       public Builder addMetadata(
-          int index, com.seabrief.Models.LogData.Metadata.Builder builderForValue) {
+          int index, com.seabrief.Services.Models.LogData.Metadata.Builder builderForValue) {
         if (metadataBuilder_ == null) {
           ensureMetadataIsMutable();
           metadata_.add(index, builderForValue.build());
@@ -1779,7 +1779,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
       public Builder addAllMetadata(
-          java.lang.Iterable<? extends com.seabrief.Models.LogData.Metadata> values) {
+          java.lang.Iterable<? extends com.seabrief.Services.Models.LogData.Metadata> values) {
         if (metadataBuilder_ == null) {
           ensureMetadataIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1819,14 +1819,14 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
-      public com.seabrief.Models.LogData.Metadata.Builder getMetadataBuilder(
+      public com.seabrief.Services.Models.LogData.Metadata.Builder getMetadataBuilder(
           int index) {
         return getMetadataFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
-      public com.seabrief.Models.LogData.MetadataOrBuilder getMetadataOrBuilder(
+      public com.seabrief.Services.Models.LogData.MetadataOrBuilder getMetadataOrBuilder(
           int index) {
         if (metadataBuilder_ == null) {
           return metadata_.get(index);  } else {
@@ -1836,7 +1836,7 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
-      public java.util.List<? extends com.seabrief.Models.LogData.MetadataOrBuilder> 
+      public java.util.List<? extends com.seabrief.Services.Models.LogData.MetadataOrBuilder> 
            getMetadataOrBuilderList() {
         if (metadataBuilder_ != null) {
           return metadataBuilder_.getMessageOrBuilderList();
@@ -1847,31 +1847,31 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
-      public com.seabrief.Models.LogData.Metadata.Builder addMetadataBuilder() {
+      public com.seabrief.Services.Models.LogData.Metadata.Builder addMetadataBuilder() {
         return getMetadataFieldBuilder().addBuilder(
-            com.seabrief.Models.LogData.Metadata.getDefaultInstance());
+            com.seabrief.Services.Models.LogData.Metadata.getDefaultInstance());
       }
       /**
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
-      public com.seabrief.Models.LogData.Metadata.Builder addMetadataBuilder(
+      public com.seabrief.Services.Models.LogData.Metadata.Builder addMetadataBuilder(
           int index) {
         return getMetadataFieldBuilder().addBuilder(
-            index, com.seabrief.Models.LogData.Metadata.getDefaultInstance());
+            index, com.seabrief.Services.Models.LogData.Metadata.getDefaultInstance());
       }
       /**
        * <code>repeated .com.seabrief.Models.Metadata metadata = 1;</code>
        */
-      public java.util.List<com.seabrief.Models.LogData.Metadata.Builder> 
+      public java.util.List<com.seabrief.Services.Models.LogData.Metadata.Builder> 
            getMetadataBuilderList() {
         return getMetadataFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          com.seabrief.Models.LogData.Metadata, com.seabrief.Models.LogData.Metadata.Builder, com.seabrief.Models.LogData.MetadataOrBuilder> 
+          com.seabrief.Services.Models.LogData.Metadata, com.seabrief.Services.Models.LogData.Metadata.Builder, com.seabrief.Services.Models.LogData.MetadataOrBuilder> 
           getMetadataFieldBuilder() {
         if (metadataBuilder_ == null) {
           metadataBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              com.seabrief.Models.LogData.Metadata, com.seabrief.Models.LogData.Metadata.Builder, com.seabrief.Models.LogData.MetadataOrBuilder>(
+              com.seabrief.Services.Models.LogData.Metadata, com.seabrief.Services.Models.LogData.Metadata.Builder, com.seabrief.Services.Models.LogData.MetadataOrBuilder>(
                   metadata_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1897,12 +1897,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.MetadataResponse)
-    private static final com.seabrief.Models.LogData.MetadataResponse DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.MetadataResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.MetadataResponse();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.MetadataResponse();
     }
 
-    public static com.seabrief.Models.LogData.MetadataResponse getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.MetadataResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1938,7 +1938,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.MetadataResponse getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.MetadataResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2011,15 +2011,15 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_Signal_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_Signal_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_Signal_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_Signal_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.Signal.class, com.seabrief.Models.LogData.Signal.Builder.class);
+              com.seabrief.Services.Models.LogData.Signal.class, com.seabrief.Services.Models.LogData.Signal.Builder.class);
     }
 
     public static final int NAME_FIELD_NUMBER = 1;
@@ -2190,10 +2190,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.Signal)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.Signal)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.Signal other = (com.seabrief.Models.LogData.Signal) obj;
+      com.seabrief.Services.Models.LogData.Signal other = (com.seabrief.Services.Models.LogData.Signal) obj;
 
       if (!getName()
           .equals(other.getName())) return false;
@@ -2223,69 +2223,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.Signal parseFrom(
+    public static com.seabrief.Services.Models.LogData.Signal parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.Signal parseFrom(
+    public static com.seabrief.Services.Models.LogData.Signal parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.Signal parseFrom(
+    public static com.seabrief.Services.Models.LogData.Signal parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.Signal parseFrom(
+    public static com.seabrief.Services.Models.LogData.Signal parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.Signal parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.Signal parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.Signal parseFrom(
+    public static com.seabrief.Services.Models.LogData.Signal parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.Signal parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.Signal parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.Signal parseFrom(
+    public static com.seabrief.Services.Models.LogData.Signal parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.Signal parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.Signal parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.Signal parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.Signal parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.Signal parseFrom(
+    public static com.seabrief.Services.Models.LogData.Signal parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.Signal parseFrom(
+    public static com.seabrief.Services.Models.LogData.Signal parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2298,7 +2298,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.Signal prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.Signal prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -2319,18 +2319,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.Signal)
-        com.seabrief.Models.LogData.SignalOrBuilder {
+        com.seabrief.Services.Models.LogData.SignalOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_Signal_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_Signal_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_Signal_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_Signal_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.Signal.class, com.seabrief.Models.LogData.Signal.Builder.class);
+                com.seabrief.Services.Models.LogData.Signal.class, com.seabrief.Services.Models.LogData.Signal.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.Signal.newBuilder()
@@ -2356,17 +2356,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_Signal_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_Signal_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.Signal getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.Signal.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.Signal getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.Signal.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.Signal build() {
-        com.seabrief.Models.LogData.Signal result = buildPartial();
+      public com.seabrief.Services.Models.LogData.Signal build() {
+        com.seabrief.Services.Models.LogData.Signal result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -2374,14 +2374,14 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.Signal buildPartial() {
-        com.seabrief.Models.LogData.Signal result = new com.seabrief.Models.LogData.Signal(this);
+      public com.seabrief.Services.Models.LogData.Signal buildPartial() {
+        com.seabrief.Services.Models.LogData.Signal result = new com.seabrief.Services.Models.LogData.Signal(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.seabrief.Models.LogData.Signal result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.Signal result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.name_ = name_;
@@ -2396,16 +2396,16 @@ public final class LogData {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.Signal) {
-          return mergeFrom((com.seabrief.Models.LogData.Signal)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.Signal) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.Signal)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.Signal other) {
-        if (other == com.seabrief.Models.LogData.Signal.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.Signal other) {
+        if (other == com.seabrief.Services.Models.LogData.Signal.getDefaultInstance()) return this;
         if (!other.getName().isEmpty()) {
           name_ = other.name_;
           bitField0_ |= 0x00000001;
@@ -2711,12 +2711,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.Signal)
-    private static final com.seabrief.Models.LogData.Signal DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.Signal DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.Signal();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.Signal();
     }
 
-    public static com.seabrief.Models.LogData.Signal getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.Signal getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2752,7 +2752,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.Signal getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.Signal getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2765,12 +2765,12 @@ public final class LogData {
     /**
      * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
      */
-    java.util.List<com.seabrief.Models.LogData.Signal> 
+    java.util.List<com.seabrief.Services.Models.LogData.Signal> 
         getSignalsList();
     /**
      * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
      */
-    com.seabrief.Models.LogData.Signal getSignals(int index);
+    com.seabrief.Services.Models.LogData.Signal getSignals(int index);
     /**
      * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
      */
@@ -2778,12 +2778,12 @@ public final class LogData {
     /**
      * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
      */
-    java.util.List<? extends com.seabrief.Models.LogData.SignalOrBuilder> 
+    java.util.List<? extends com.seabrief.Services.Models.LogData.SignalOrBuilder> 
         getSignalsOrBuilderList();
     /**
      * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
      */
-    com.seabrief.Models.LogData.SignalOrBuilder getSignalsOrBuilder(
+    com.seabrief.Services.Models.LogData.SignalOrBuilder getSignalsOrBuilder(
         int index);
   }
   /**
@@ -2811,32 +2811,32 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_SignalsResponse_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_SignalsResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_SignalsResponse_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_SignalsResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.SignalsResponse.class, com.seabrief.Models.LogData.SignalsResponse.Builder.class);
+              com.seabrief.Services.Models.LogData.SignalsResponse.class, com.seabrief.Services.Models.LogData.SignalsResponse.Builder.class);
     }
 
     public static final int SIGNALS_FIELD_NUMBER = 1;
     @SuppressWarnings("serial")
-    private java.util.List<com.seabrief.Models.LogData.Signal> signals_;
+    private java.util.List<com.seabrief.Services.Models.LogData.Signal> signals_;
     /**
      * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<com.seabrief.Models.LogData.Signal> getSignalsList() {
+    public java.util.List<com.seabrief.Services.Models.LogData.Signal> getSignalsList() {
       return signals_;
     }
     /**
      * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends com.seabrief.Models.LogData.SignalOrBuilder> 
+    public java.util.List<? extends com.seabrief.Services.Models.LogData.SignalOrBuilder> 
         getSignalsOrBuilderList() {
       return signals_;
     }
@@ -2851,14 +2851,14 @@ public final class LogData {
      * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
      */
     @java.lang.Override
-    public com.seabrief.Models.LogData.Signal getSignals(int index) {
+    public com.seabrief.Services.Models.LogData.Signal getSignals(int index) {
       return signals_.get(index);
     }
     /**
      * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
      */
     @java.lang.Override
-    public com.seabrief.Models.LogData.SignalOrBuilder getSignalsOrBuilder(
+    public com.seabrief.Services.Models.LogData.SignalOrBuilder getSignalsOrBuilder(
         int index) {
       return signals_.get(index);
     }
@@ -2903,10 +2903,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.SignalsResponse)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.SignalsResponse)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.SignalsResponse other = (com.seabrief.Models.LogData.SignalsResponse) obj;
+      com.seabrief.Services.Models.LogData.SignalsResponse other = (com.seabrief.Services.Models.LogData.SignalsResponse) obj;
 
       if (!getSignalsList()
           .equals(other.getSignalsList())) return false;
@@ -2930,69 +2930,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.SignalsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.SignalsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.SignalsResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3005,7 +3005,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.SignalsResponse prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.SignalsResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -3026,18 +3026,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.SignalsResponse)
-        com.seabrief.Models.LogData.SignalsResponseOrBuilder {
+        com.seabrief.Services.Models.LogData.SignalsResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_SignalsResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_SignalsResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_SignalsResponse_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_SignalsResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.SignalsResponse.class, com.seabrief.Models.LogData.SignalsResponse.Builder.class);
+                com.seabrief.Services.Models.LogData.SignalsResponse.class, com.seabrief.Services.Models.LogData.SignalsResponse.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.SignalsResponse.newBuilder()
@@ -3067,17 +3067,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_SignalsResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_SignalsResponse_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.SignalsResponse getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.SignalsResponse.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.SignalsResponse getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.SignalsResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.SignalsResponse build() {
-        com.seabrief.Models.LogData.SignalsResponse result = buildPartial();
+      public com.seabrief.Services.Models.LogData.SignalsResponse build() {
+        com.seabrief.Services.Models.LogData.SignalsResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -3085,15 +3085,15 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.SignalsResponse buildPartial() {
-        com.seabrief.Models.LogData.SignalsResponse result = new com.seabrief.Models.LogData.SignalsResponse(this);
+      public com.seabrief.Services.Models.LogData.SignalsResponse buildPartial() {
+        com.seabrief.Services.Models.LogData.SignalsResponse result = new com.seabrief.Services.Models.LogData.SignalsResponse(this);
         buildPartialRepeatedFields(result);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartialRepeatedFields(com.seabrief.Models.LogData.SignalsResponse result) {
+      private void buildPartialRepeatedFields(com.seabrief.Services.Models.LogData.SignalsResponse result) {
         if (signalsBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             signals_ = java.util.Collections.unmodifiableList(signals_);
@@ -3105,23 +3105,23 @@ public final class LogData {
         }
       }
 
-      private void buildPartial0(com.seabrief.Models.LogData.SignalsResponse result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.SignalsResponse result) {
         @SuppressWarnings("unused")
         int from_bitField0_ = bitField0_;
       }
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.SignalsResponse) {
-          return mergeFrom((com.seabrief.Models.LogData.SignalsResponse)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.SignalsResponse) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.SignalsResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.SignalsResponse other) {
-        if (other == com.seabrief.Models.LogData.SignalsResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.SignalsResponse other) {
+        if (other == com.seabrief.Services.Models.LogData.SignalsResponse.getDefaultInstance()) return this;
         if (signalsBuilder_ == null) {
           if (!other.signals_.isEmpty()) {
             if (signals_.isEmpty()) {
@@ -3175,9 +3175,9 @@ public final class LogData {
                 done = true;
                 break;
               case 10: {
-                com.seabrief.Models.LogData.Signal m =
+                com.seabrief.Services.Models.LogData.Signal m =
                     input.readMessage(
-                        com.seabrief.Models.LogData.Signal.parser(),
+                        com.seabrief.Services.Models.LogData.Signal.parser(),
                         extensionRegistry);
                 if (signalsBuilder_ == null) {
                   ensureSignalsIsMutable();
@@ -3204,22 +3204,22 @@ public final class LogData {
       }
       private int bitField0_;
 
-      private java.util.List<com.seabrief.Models.LogData.Signal> signals_ =
+      private java.util.List<com.seabrief.Services.Models.LogData.Signal> signals_ =
         java.util.Collections.emptyList();
       private void ensureSignalsIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          signals_ = new java.util.ArrayList<com.seabrief.Models.LogData.Signal>(signals_);
+          signals_ = new java.util.ArrayList<com.seabrief.Services.Models.LogData.Signal>(signals_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          com.seabrief.Models.LogData.Signal, com.seabrief.Models.LogData.Signal.Builder, com.seabrief.Models.LogData.SignalOrBuilder> signalsBuilder_;
+          com.seabrief.Services.Models.LogData.Signal, com.seabrief.Services.Models.LogData.Signal.Builder, com.seabrief.Services.Models.LogData.SignalOrBuilder> signalsBuilder_;
 
       /**
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
-      public java.util.List<com.seabrief.Models.LogData.Signal> getSignalsList() {
+      public java.util.List<com.seabrief.Services.Models.LogData.Signal> getSignalsList() {
         if (signalsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(signals_);
         } else {
@@ -3239,7 +3239,7 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
-      public com.seabrief.Models.LogData.Signal getSignals(int index) {
+      public com.seabrief.Services.Models.LogData.Signal getSignals(int index) {
         if (signalsBuilder_ == null) {
           return signals_.get(index);
         } else {
@@ -3250,7 +3250,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
       public Builder setSignals(
-          int index, com.seabrief.Models.LogData.Signal value) {
+          int index, com.seabrief.Services.Models.LogData.Signal value) {
         if (signalsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3267,7 +3267,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
       public Builder setSignals(
-          int index, com.seabrief.Models.LogData.Signal.Builder builderForValue) {
+          int index, com.seabrief.Services.Models.LogData.Signal.Builder builderForValue) {
         if (signalsBuilder_ == null) {
           ensureSignalsIsMutable();
           signals_.set(index, builderForValue.build());
@@ -3280,7 +3280,7 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
-      public Builder addSignals(com.seabrief.Models.LogData.Signal value) {
+      public Builder addSignals(com.seabrief.Services.Models.LogData.Signal value) {
         if (signalsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3297,7 +3297,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
       public Builder addSignals(
-          int index, com.seabrief.Models.LogData.Signal value) {
+          int index, com.seabrief.Services.Models.LogData.Signal value) {
         if (signalsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3314,7 +3314,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
       public Builder addSignals(
-          com.seabrief.Models.LogData.Signal.Builder builderForValue) {
+          com.seabrief.Services.Models.LogData.Signal.Builder builderForValue) {
         if (signalsBuilder_ == null) {
           ensureSignalsIsMutable();
           signals_.add(builderForValue.build());
@@ -3328,7 +3328,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
       public Builder addSignals(
-          int index, com.seabrief.Models.LogData.Signal.Builder builderForValue) {
+          int index, com.seabrief.Services.Models.LogData.Signal.Builder builderForValue) {
         if (signalsBuilder_ == null) {
           ensureSignalsIsMutable();
           signals_.add(index, builderForValue.build());
@@ -3342,7 +3342,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
       public Builder addAllSignals(
-          java.lang.Iterable<? extends com.seabrief.Models.LogData.Signal> values) {
+          java.lang.Iterable<? extends com.seabrief.Services.Models.LogData.Signal> values) {
         if (signalsBuilder_ == null) {
           ensureSignalsIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -3382,14 +3382,14 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
-      public com.seabrief.Models.LogData.Signal.Builder getSignalsBuilder(
+      public com.seabrief.Services.Models.LogData.Signal.Builder getSignalsBuilder(
           int index) {
         return getSignalsFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
-      public com.seabrief.Models.LogData.SignalOrBuilder getSignalsOrBuilder(
+      public com.seabrief.Services.Models.LogData.SignalOrBuilder getSignalsOrBuilder(
           int index) {
         if (signalsBuilder_ == null) {
           return signals_.get(index);  } else {
@@ -3399,7 +3399,7 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
-      public java.util.List<? extends com.seabrief.Models.LogData.SignalOrBuilder> 
+      public java.util.List<? extends com.seabrief.Services.Models.LogData.SignalOrBuilder> 
            getSignalsOrBuilderList() {
         if (signalsBuilder_ != null) {
           return signalsBuilder_.getMessageOrBuilderList();
@@ -3410,31 +3410,31 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
-      public com.seabrief.Models.LogData.Signal.Builder addSignalsBuilder() {
+      public com.seabrief.Services.Models.LogData.Signal.Builder addSignalsBuilder() {
         return getSignalsFieldBuilder().addBuilder(
-            com.seabrief.Models.LogData.Signal.getDefaultInstance());
+            com.seabrief.Services.Models.LogData.Signal.getDefaultInstance());
       }
       /**
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
-      public com.seabrief.Models.LogData.Signal.Builder addSignalsBuilder(
+      public com.seabrief.Services.Models.LogData.Signal.Builder addSignalsBuilder(
           int index) {
         return getSignalsFieldBuilder().addBuilder(
-            index, com.seabrief.Models.LogData.Signal.getDefaultInstance());
+            index, com.seabrief.Services.Models.LogData.Signal.getDefaultInstance());
       }
       /**
        * <code>repeated .com.seabrief.Models.Signal signals = 1;</code>
        */
-      public java.util.List<com.seabrief.Models.LogData.Signal.Builder> 
+      public java.util.List<com.seabrief.Services.Models.LogData.Signal.Builder> 
            getSignalsBuilderList() {
         return getSignalsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          com.seabrief.Models.LogData.Signal, com.seabrief.Models.LogData.Signal.Builder, com.seabrief.Models.LogData.SignalOrBuilder> 
+          com.seabrief.Services.Models.LogData.Signal, com.seabrief.Services.Models.LogData.Signal.Builder, com.seabrief.Services.Models.LogData.SignalOrBuilder> 
           getSignalsFieldBuilder() {
         if (signalsBuilder_ == null) {
           signalsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              com.seabrief.Models.LogData.Signal, com.seabrief.Models.LogData.Signal.Builder, com.seabrief.Models.LogData.SignalOrBuilder>(
+              com.seabrief.Services.Models.LogData.Signal, com.seabrief.Services.Models.LogData.Signal.Builder, com.seabrief.Services.Models.LogData.SignalOrBuilder>(
                   signals_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -3460,12 +3460,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.SignalsResponse)
-    private static final com.seabrief.Models.LogData.SignalsResponse DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.SignalsResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.SignalsResponse();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.SignalsResponse();
     }
 
-    public static com.seabrief.Models.LogData.SignalsResponse getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.SignalsResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3501,7 +3501,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.SignalsResponse getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.SignalsResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3547,15 +3547,15 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_RangeRequest_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_RangeRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_RangeRequest_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_RangeRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.RangeRequest.class, com.seabrief.Models.LogData.RangeRequest.Builder.class);
+              com.seabrief.Services.Models.LogData.RangeRequest.class, com.seabrief.Services.Models.LogData.RangeRequest.Builder.class);
     }
 
     public static final int FROM_FIELD_NUMBER = 1;
@@ -3627,10 +3627,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.RangeRequest)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.RangeRequest)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.RangeRequest other = (com.seabrief.Models.LogData.RangeRequest) obj;
+      com.seabrief.Services.Models.LogData.RangeRequest other = (com.seabrief.Services.Models.LogData.RangeRequest) obj;
 
       if (getFrom()
           != other.getFrom()) return false;
@@ -3658,69 +3658,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.RangeRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.RangeRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.RangeRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3733,7 +3733,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.RangeRequest prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.RangeRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -3754,18 +3754,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.RangeRequest)
-        com.seabrief.Models.LogData.RangeRequestOrBuilder {
+        com.seabrief.Services.Models.LogData.RangeRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_RangeRequest_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_RangeRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_RangeRequest_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_RangeRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.RangeRequest.class, com.seabrief.Models.LogData.RangeRequest.Builder.class);
+                com.seabrief.Services.Models.LogData.RangeRequest.class, com.seabrief.Services.Models.LogData.RangeRequest.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.RangeRequest.newBuilder()
@@ -3790,17 +3790,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_RangeRequest_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_RangeRequest_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.RangeRequest getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.RangeRequest.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.RangeRequest getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.RangeRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.RangeRequest build() {
-        com.seabrief.Models.LogData.RangeRequest result = buildPartial();
+      public com.seabrief.Services.Models.LogData.RangeRequest build() {
+        com.seabrief.Services.Models.LogData.RangeRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -3808,14 +3808,14 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.RangeRequest buildPartial() {
-        com.seabrief.Models.LogData.RangeRequest result = new com.seabrief.Models.LogData.RangeRequest(this);
+      public com.seabrief.Services.Models.LogData.RangeRequest buildPartial() {
+        com.seabrief.Services.Models.LogData.RangeRequest result = new com.seabrief.Services.Models.LogData.RangeRequest(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.seabrief.Models.LogData.RangeRequest result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.RangeRequest result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.from_ = from_;
@@ -3827,16 +3827,16 @@ public final class LogData {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.RangeRequest) {
-          return mergeFrom((com.seabrief.Models.LogData.RangeRequest)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.RangeRequest) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.RangeRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.RangeRequest other) {
-        if (other == com.seabrief.Models.LogData.RangeRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.RangeRequest other) {
+        if (other == com.seabrief.Services.Models.LogData.RangeRequest.getDefaultInstance()) return this;
         if (other.getFrom() != 0L) {
           setFrom(other.getFrom());
         }
@@ -3976,12 +3976,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.RangeRequest)
-    private static final com.seabrief.Models.LogData.RangeRequest DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.RangeRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.RangeRequest();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.RangeRequest();
     }
 
-    public static com.seabrief.Models.LogData.RangeRequest getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.RangeRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4017,7 +4017,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.RangeRequest getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.RangeRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4063,15 +4063,15 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_BoundsResponse_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_BoundsResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_BoundsResponse_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_BoundsResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.BoundsResponse.class, com.seabrief.Models.LogData.BoundsResponse.Builder.class);
+              com.seabrief.Services.Models.LogData.BoundsResponse.class, com.seabrief.Services.Models.LogData.BoundsResponse.Builder.class);
     }
 
     public static final int FROM_FIELD_NUMBER = 1;
@@ -4143,10 +4143,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.BoundsResponse)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.BoundsResponse)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.BoundsResponse other = (com.seabrief.Models.LogData.BoundsResponse) obj;
+      com.seabrief.Services.Models.LogData.BoundsResponse other = (com.seabrief.Services.Models.LogData.BoundsResponse) obj;
 
       if (getFrom()
           != other.getFrom()) return false;
@@ -4174,69 +4174,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.BoundsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.BoundsResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.BoundsResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -4249,7 +4249,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.BoundsResponse prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.BoundsResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -4270,18 +4270,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.BoundsResponse)
-        com.seabrief.Models.LogData.BoundsResponseOrBuilder {
+        com.seabrief.Services.Models.LogData.BoundsResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_BoundsResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_BoundsResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_BoundsResponse_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_BoundsResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.BoundsResponse.class, com.seabrief.Models.LogData.BoundsResponse.Builder.class);
+                com.seabrief.Services.Models.LogData.BoundsResponse.class, com.seabrief.Services.Models.LogData.BoundsResponse.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.BoundsResponse.newBuilder()
@@ -4306,17 +4306,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_BoundsResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_BoundsResponse_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.BoundsResponse getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.BoundsResponse.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.BoundsResponse getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.BoundsResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.BoundsResponse build() {
-        com.seabrief.Models.LogData.BoundsResponse result = buildPartial();
+      public com.seabrief.Services.Models.LogData.BoundsResponse build() {
+        com.seabrief.Services.Models.LogData.BoundsResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -4324,14 +4324,14 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.BoundsResponse buildPartial() {
-        com.seabrief.Models.LogData.BoundsResponse result = new com.seabrief.Models.LogData.BoundsResponse(this);
+      public com.seabrief.Services.Models.LogData.BoundsResponse buildPartial() {
+        com.seabrief.Services.Models.LogData.BoundsResponse result = new com.seabrief.Services.Models.LogData.BoundsResponse(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.seabrief.Models.LogData.BoundsResponse result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.BoundsResponse result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.from_ = from_;
@@ -4343,16 +4343,16 @@ public final class LogData {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.BoundsResponse) {
-          return mergeFrom((com.seabrief.Models.LogData.BoundsResponse)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.BoundsResponse) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.BoundsResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.BoundsResponse other) {
-        if (other == com.seabrief.Models.LogData.BoundsResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.BoundsResponse other) {
+        if (other == com.seabrief.Services.Models.LogData.BoundsResponse.getDefaultInstance()) return this;
         if (other.getFrom() != 0L) {
           setFrom(other.getFrom());
         }
@@ -4492,12 +4492,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.BoundsResponse)
-    private static final com.seabrief.Models.LogData.BoundsResponse DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.BoundsResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.BoundsResponse();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.BoundsResponse();
     }
 
-    public static com.seabrief.Models.LogData.BoundsResponse getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.BoundsResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4533,7 +4533,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.BoundsResponse getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.BoundsResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4603,15 +4603,15 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_TimeseriesResponse_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_TimeseriesResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_TimeseriesResponse_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_TimeseriesResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.TimeseriesResponse.class, com.seabrief.Models.LogData.TimeseriesResponse.Builder.class);
+              com.seabrief.Services.Models.LogData.TimeseriesResponse.class, com.seabrief.Services.Models.LogData.TimeseriesResponse.Builder.class);
     }
 
     public static final int TIMES_FIELD_NUMBER = 1;
@@ -4745,10 +4745,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.TimeseriesResponse)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.TimeseriesResponse)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.TimeseriesResponse other = (com.seabrief.Models.LogData.TimeseriesResponse) obj;
+      com.seabrief.Services.Models.LogData.TimeseriesResponse other = (com.seabrief.Services.Models.LogData.TimeseriesResponse) obj;
 
       if (!getTimesList()
           .equals(other.getTimesList())) return false;
@@ -4778,69 +4778,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.TimeseriesResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -4853,7 +4853,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.TimeseriesResponse prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.TimeseriesResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -4874,18 +4874,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.TimeseriesResponse)
-        com.seabrief.Models.LogData.TimeseriesResponseOrBuilder {
+        com.seabrief.Services.Models.LogData.TimeseriesResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_TimeseriesResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_TimeseriesResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_TimeseriesResponse_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_TimeseriesResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.TimeseriesResponse.class, com.seabrief.Models.LogData.TimeseriesResponse.Builder.class);
+                com.seabrief.Services.Models.LogData.TimeseriesResponse.class, com.seabrief.Services.Models.LogData.TimeseriesResponse.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.TimeseriesResponse.newBuilder()
@@ -4910,17 +4910,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_TimeseriesResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_TimeseriesResponse_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.TimeseriesResponse getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.TimeseriesResponse.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.TimeseriesResponse getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.TimeseriesResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.TimeseriesResponse build() {
-        com.seabrief.Models.LogData.TimeseriesResponse result = buildPartial();
+      public com.seabrief.Services.Models.LogData.TimeseriesResponse build() {
+        com.seabrief.Services.Models.LogData.TimeseriesResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -4928,15 +4928,15 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.TimeseriesResponse buildPartial() {
-        com.seabrief.Models.LogData.TimeseriesResponse result = new com.seabrief.Models.LogData.TimeseriesResponse(this);
+      public com.seabrief.Services.Models.LogData.TimeseriesResponse buildPartial() {
+        com.seabrief.Services.Models.LogData.TimeseriesResponse result = new com.seabrief.Services.Models.LogData.TimeseriesResponse(this);
         buildPartialRepeatedFields(result);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartialRepeatedFields(com.seabrief.Models.LogData.TimeseriesResponse result) {
+      private void buildPartialRepeatedFields(com.seabrief.Services.Models.LogData.TimeseriesResponse result) {
         if (((bitField0_ & 0x00000001) != 0)) {
           times_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
@@ -4950,22 +4950,22 @@ public final class LogData {
       }
 
       @SuppressWarnings("unused")
-      private void buildPartial0(com.seabrief.Models.LogData.TimeseriesResponse result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.TimeseriesResponse result) {
         int from_bitField0_ = bitField0_;
       }
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.TimeseriesResponse) {
-          return mergeFrom((com.seabrief.Models.LogData.TimeseriesResponse)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.TimeseriesResponse) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.TimeseriesResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.TimeseriesResponse other) {
-        if (other == com.seabrief.Models.LogData.TimeseriesResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.TimeseriesResponse other) {
+        if (other == com.seabrief.Services.Models.LogData.TimeseriesResponse.getDefaultInstance()) return this;
         if (!other.times_.isEmpty()) {
           if (times_.isEmpty()) {
             times_ = other.times_;
@@ -5239,12 +5239,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.TimeseriesResponse)
-    private static final com.seabrief.Models.LogData.TimeseriesResponse DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.TimeseriesResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.TimeseriesResponse();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.TimeseriesResponse();
     }
 
-    public static com.seabrief.Models.LogData.TimeseriesResponse getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.TimeseriesResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5280,7 +5280,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.TimeseriesResponse getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.TimeseriesResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5333,15 +5333,15 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_DatabaseFile_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_DatabaseFile_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_DatabaseFile_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_DatabaseFile_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.DatabaseFile.class, com.seabrief.Models.LogData.DatabaseFile.Builder.class);
+              com.seabrief.Services.Models.LogData.DatabaseFile.class, com.seabrief.Services.Models.LogData.DatabaseFile.Builder.class);
     }
 
     public static final int NAME_FIELD_NUMBER = 1;
@@ -5440,10 +5440,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.DatabaseFile)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.DatabaseFile)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.DatabaseFile other = (com.seabrief.Models.LogData.DatabaseFile) obj;
+      com.seabrief.Services.Models.LogData.DatabaseFile other = (com.seabrief.Services.Models.LogData.DatabaseFile) obj;
 
       if (!getName()
           .equals(other.getName())) return false;
@@ -5470,69 +5470,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.DatabaseFile parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.DatabaseFile parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseFile parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5545,7 +5545,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.DatabaseFile prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.DatabaseFile prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -5566,18 +5566,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.DatabaseFile)
-        com.seabrief.Models.LogData.DatabaseFileOrBuilder {
+        com.seabrief.Services.Models.LogData.DatabaseFileOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_DatabaseFile_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_DatabaseFile_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_DatabaseFile_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_DatabaseFile_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.DatabaseFile.class, com.seabrief.Models.LogData.DatabaseFile.Builder.class);
+                com.seabrief.Services.Models.LogData.DatabaseFile.class, com.seabrief.Services.Models.LogData.DatabaseFile.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.DatabaseFile.newBuilder()
@@ -5602,17 +5602,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_DatabaseFile_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_DatabaseFile_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.DatabaseFile getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.DatabaseFile.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.DatabaseFile getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.DatabaseFile.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.DatabaseFile build() {
-        com.seabrief.Models.LogData.DatabaseFile result = buildPartial();
+      public com.seabrief.Services.Models.LogData.DatabaseFile build() {
+        com.seabrief.Services.Models.LogData.DatabaseFile result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -5620,14 +5620,14 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.DatabaseFile buildPartial() {
-        com.seabrief.Models.LogData.DatabaseFile result = new com.seabrief.Models.LogData.DatabaseFile(this);
+      public com.seabrief.Services.Models.LogData.DatabaseFile buildPartial() {
+        com.seabrief.Services.Models.LogData.DatabaseFile result = new com.seabrief.Services.Models.LogData.DatabaseFile(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.seabrief.Models.LogData.DatabaseFile result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.DatabaseFile result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.name_ = name_;
@@ -5639,16 +5639,16 @@ public final class LogData {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.DatabaseFile) {
-          return mergeFrom((com.seabrief.Models.LogData.DatabaseFile)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.DatabaseFile) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.DatabaseFile)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.DatabaseFile other) {
-        if (other == com.seabrief.Models.LogData.DatabaseFile.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.DatabaseFile other) {
+        if (other == com.seabrief.Services.Models.LogData.DatabaseFile.getDefaultInstance()) return this;
         if (!other.getName().isEmpty()) {
           name_ = other.name_;
           bitField0_ |= 0x00000001;
@@ -5830,12 +5830,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.DatabaseFile)
-    private static final com.seabrief.Models.LogData.DatabaseFile DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.DatabaseFile DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.DatabaseFile();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.DatabaseFile();
     }
 
-    public static com.seabrief.Models.LogData.DatabaseFile getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.DatabaseFile getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5871,7 +5871,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.DatabaseFile getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.DatabaseFile getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5884,12 +5884,12 @@ public final class LogData {
     /**
      * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
      */
-    java.util.List<com.seabrief.Models.LogData.DatabaseFile> 
+    java.util.List<com.seabrief.Services.Models.LogData.DatabaseFile> 
         getDatabasesList();
     /**
      * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
      */
-    com.seabrief.Models.LogData.DatabaseFile getDatabases(int index);
+    com.seabrief.Services.Models.LogData.DatabaseFile getDatabases(int index);
     /**
      * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
      */
@@ -5897,12 +5897,12 @@ public final class LogData {
     /**
      * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
      */
-    java.util.List<? extends com.seabrief.Models.LogData.DatabaseFileOrBuilder> 
+    java.util.List<? extends com.seabrief.Services.Models.LogData.DatabaseFileOrBuilder> 
         getDatabasesOrBuilderList();
     /**
      * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
      */
-    com.seabrief.Models.LogData.DatabaseFileOrBuilder getDatabasesOrBuilder(
+    com.seabrief.Services.Models.LogData.DatabaseFileOrBuilder getDatabasesOrBuilder(
         int index);
   }
   /**
@@ -5930,32 +5930,32 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_DatabaseResponse_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_DatabaseResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_DatabaseResponse_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_DatabaseResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.DatabaseResponse.class, com.seabrief.Models.LogData.DatabaseResponse.Builder.class);
+              com.seabrief.Services.Models.LogData.DatabaseResponse.class, com.seabrief.Services.Models.LogData.DatabaseResponse.Builder.class);
     }
 
     public static final int DATABASES_FIELD_NUMBER = 1;
     @SuppressWarnings("serial")
-    private java.util.List<com.seabrief.Models.LogData.DatabaseFile> databases_;
+    private java.util.List<com.seabrief.Services.Models.LogData.DatabaseFile> databases_;
     /**
      * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<com.seabrief.Models.LogData.DatabaseFile> getDatabasesList() {
+    public java.util.List<com.seabrief.Services.Models.LogData.DatabaseFile> getDatabasesList() {
       return databases_;
     }
     /**
      * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends com.seabrief.Models.LogData.DatabaseFileOrBuilder> 
+    public java.util.List<? extends com.seabrief.Services.Models.LogData.DatabaseFileOrBuilder> 
         getDatabasesOrBuilderList() {
       return databases_;
     }
@@ -5970,14 +5970,14 @@ public final class LogData {
      * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
      */
     @java.lang.Override
-    public com.seabrief.Models.LogData.DatabaseFile getDatabases(int index) {
+    public com.seabrief.Services.Models.LogData.DatabaseFile getDatabases(int index) {
       return databases_.get(index);
     }
     /**
      * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
      */
     @java.lang.Override
-    public com.seabrief.Models.LogData.DatabaseFileOrBuilder getDatabasesOrBuilder(
+    public com.seabrief.Services.Models.LogData.DatabaseFileOrBuilder getDatabasesOrBuilder(
         int index) {
       return databases_.get(index);
     }
@@ -6022,10 +6022,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.DatabaseResponse)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.DatabaseResponse)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.DatabaseResponse other = (com.seabrief.Models.LogData.DatabaseResponse) obj;
+      com.seabrief.Services.Models.LogData.DatabaseResponse other = (com.seabrief.Services.Models.LogData.DatabaseResponse) obj;
 
       if (!getDatabasesList()
           .equals(other.getDatabasesList())) return false;
@@ -6049,69 +6049,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.DatabaseResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.DatabaseResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6124,7 +6124,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.DatabaseResponse prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.DatabaseResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -6145,18 +6145,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.DatabaseResponse)
-        com.seabrief.Models.LogData.DatabaseResponseOrBuilder {
+        com.seabrief.Services.Models.LogData.DatabaseResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_DatabaseResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_DatabaseResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_DatabaseResponse_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_DatabaseResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.DatabaseResponse.class, com.seabrief.Models.LogData.DatabaseResponse.Builder.class);
+                com.seabrief.Services.Models.LogData.DatabaseResponse.class, com.seabrief.Services.Models.LogData.DatabaseResponse.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.DatabaseResponse.newBuilder()
@@ -6186,17 +6186,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_DatabaseResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_DatabaseResponse_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.DatabaseResponse getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.DatabaseResponse.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.DatabaseResponse getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.DatabaseResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.DatabaseResponse build() {
-        com.seabrief.Models.LogData.DatabaseResponse result = buildPartial();
+      public com.seabrief.Services.Models.LogData.DatabaseResponse build() {
+        com.seabrief.Services.Models.LogData.DatabaseResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -6204,15 +6204,15 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.DatabaseResponse buildPartial() {
-        com.seabrief.Models.LogData.DatabaseResponse result = new com.seabrief.Models.LogData.DatabaseResponse(this);
+      public com.seabrief.Services.Models.LogData.DatabaseResponse buildPartial() {
+        com.seabrief.Services.Models.LogData.DatabaseResponse result = new com.seabrief.Services.Models.LogData.DatabaseResponse(this);
         buildPartialRepeatedFields(result);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartialRepeatedFields(com.seabrief.Models.LogData.DatabaseResponse result) {
+      private void buildPartialRepeatedFields(com.seabrief.Services.Models.LogData.DatabaseResponse result) {
         if (databasesBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             databases_ = java.util.Collections.unmodifiableList(databases_);
@@ -6225,22 +6225,22 @@ public final class LogData {
       }
 
       @SuppressWarnings("unused")
-      private void buildPartial0(com.seabrief.Models.LogData.DatabaseResponse result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.DatabaseResponse result) {
         int from_bitField0_ = bitField0_;
       }
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.DatabaseResponse) {
-          return mergeFrom((com.seabrief.Models.LogData.DatabaseResponse)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.DatabaseResponse) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.DatabaseResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.DatabaseResponse other) {
-        if (other == com.seabrief.Models.LogData.DatabaseResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.DatabaseResponse other) {
+        if (other == com.seabrief.Services.Models.LogData.DatabaseResponse.getDefaultInstance()) return this;
         if (databasesBuilder_ == null) {
           if (!other.databases_.isEmpty()) {
             if (databases_.isEmpty()) {
@@ -6294,9 +6294,9 @@ public final class LogData {
                 done = true;
                 break;
               case 10: {
-                com.seabrief.Models.LogData.DatabaseFile m =
+                com.seabrief.Services.Models.LogData.DatabaseFile m =
                     input.readMessage(
-                        com.seabrief.Models.LogData.DatabaseFile.parser(),
+                        com.seabrief.Services.Models.LogData.DatabaseFile.parser(),
                         extensionRegistry);
                 if (databasesBuilder_ == null) {
                   ensureDatabasesIsMutable();
@@ -6323,22 +6323,22 @@ public final class LogData {
       }
       private int bitField0_;
 
-      private java.util.List<com.seabrief.Models.LogData.DatabaseFile> databases_ =
+      private java.util.List<com.seabrief.Services.Models.LogData.DatabaseFile> databases_ =
         java.util.Collections.emptyList();
       private void ensureDatabasesIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          databases_ = new java.util.ArrayList<com.seabrief.Models.LogData.DatabaseFile>(databases_);
+          databases_ = new java.util.ArrayList<com.seabrief.Services.Models.LogData.DatabaseFile>(databases_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          com.seabrief.Models.LogData.DatabaseFile, com.seabrief.Models.LogData.DatabaseFile.Builder, com.seabrief.Models.LogData.DatabaseFileOrBuilder> databasesBuilder_;
+          com.seabrief.Services.Models.LogData.DatabaseFile, com.seabrief.Services.Models.LogData.DatabaseFile.Builder, com.seabrief.Services.Models.LogData.DatabaseFileOrBuilder> databasesBuilder_;
 
       /**
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
-      public java.util.List<com.seabrief.Models.LogData.DatabaseFile> getDatabasesList() {
+      public java.util.List<com.seabrief.Services.Models.LogData.DatabaseFile> getDatabasesList() {
         if (databasesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(databases_);
         } else {
@@ -6358,7 +6358,7 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
-      public com.seabrief.Models.LogData.DatabaseFile getDatabases(int index) {
+      public com.seabrief.Services.Models.LogData.DatabaseFile getDatabases(int index) {
         if (databasesBuilder_ == null) {
           return databases_.get(index);
         } else {
@@ -6369,7 +6369,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
       public Builder setDatabases(
-          int index, com.seabrief.Models.LogData.DatabaseFile value) {
+          int index, com.seabrief.Services.Models.LogData.DatabaseFile value) {
         if (databasesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6386,7 +6386,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
       public Builder setDatabases(
-          int index, com.seabrief.Models.LogData.DatabaseFile.Builder builderForValue) {
+          int index, com.seabrief.Services.Models.LogData.DatabaseFile.Builder builderForValue) {
         if (databasesBuilder_ == null) {
           ensureDatabasesIsMutable();
           databases_.set(index, builderForValue.build());
@@ -6399,7 +6399,7 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
-      public Builder addDatabases(com.seabrief.Models.LogData.DatabaseFile value) {
+      public Builder addDatabases(com.seabrief.Services.Models.LogData.DatabaseFile value) {
         if (databasesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6416,7 +6416,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
       public Builder addDatabases(
-          int index, com.seabrief.Models.LogData.DatabaseFile value) {
+          int index, com.seabrief.Services.Models.LogData.DatabaseFile value) {
         if (databasesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6433,7 +6433,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
       public Builder addDatabases(
-          com.seabrief.Models.LogData.DatabaseFile.Builder builderForValue) {
+          com.seabrief.Services.Models.LogData.DatabaseFile.Builder builderForValue) {
         if (databasesBuilder_ == null) {
           ensureDatabasesIsMutable();
           databases_.add(builderForValue.build());
@@ -6447,7 +6447,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
       public Builder addDatabases(
-          int index, com.seabrief.Models.LogData.DatabaseFile.Builder builderForValue) {
+          int index, com.seabrief.Services.Models.LogData.DatabaseFile.Builder builderForValue) {
         if (databasesBuilder_ == null) {
           ensureDatabasesIsMutable();
           databases_.add(index, builderForValue.build());
@@ -6461,7 +6461,7 @@ public final class LogData {
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
       public Builder addAllDatabases(
-          java.lang.Iterable<? extends com.seabrief.Models.LogData.DatabaseFile> values) {
+          java.lang.Iterable<? extends com.seabrief.Services.Models.LogData.DatabaseFile> values) {
         if (databasesBuilder_ == null) {
           ensureDatabasesIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -6501,14 +6501,14 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
-      public com.seabrief.Models.LogData.DatabaseFile.Builder getDatabasesBuilder(
+      public com.seabrief.Services.Models.LogData.DatabaseFile.Builder getDatabasesBuilder(
           int index) {
         return getDatabasesFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
-      public com.seabrief.Models.LogData.DatabaseFileOrBuilder getDatabasesOrBuilder(
+      public com.seabrief.Services.Models.LogData.DatabaseFileOrBuilder getDatabasesOrBuilder(
           int index) {
         if (databasesBuilder_ == null) {
           return databases_.get(index);  } else {
@@ -6518,7 +6518,7 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
-      public java.util.List<? extends com.seabrief.Models.LogData.DatabaseFileOrBuilder> 
+      public java.util.List<? extends com.seabrief.Services.Models.LogData.DatabaseFileOrBuilder> 
            getDatabasesOrBuilderList() {
         if (databasesBuilder_ != null) {
           return databasesBuilder_.getMessageOrBuilderList();
@@ -6529,31 +6529,31 @@ public final class LogData {
       /**
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
-      public com.seabrief.Models.LogData.DatabaseFile.Builder addDatabasesBuilder() {
+      public com.seabrief.Services.Models.LogData.DatabaseFile.Builder addDatabasesBuilder() {
         return getDatabasesFieldBuilder().addBuilder(
-            com.seabrief.Models.LogData.DatabaseFile.getDefaultInstance());
+            com.seabrief.Services.Models.LogData.DatabaseFile.getDefaultInstance());
       }
       /**
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
-      public com.seabrief.Models.LogData.DatabaseFile.Builder addDatabasesBuilder(
+      public com.seabrief.Services.Models.LogData.DatabaseFile.Builder addDatabasesBuilder(
           int index) {
         return getDatabasesFieldBuilder().addBuilder(
-            index, com.seabrief.Models.LogData.DatabaseFile.getDefaultInstance());
+            index, com.seabrief.Services.Models.LogData.DatabaseFile.getDefaultInstance());
       }
       /**
        * <code>repeated .com.seabrief.Models.DatabaseFile databases = 1;</code>
        */
-      public java.util.List<com.seabrief.Models.LogData.DatabaseFile.Builder> 
+      public java.util.List<com.seabrief.Services.Models.LogData.DatabaseFile.Builder> 
            getDatabasesBuilderList() {
         return getDatabasesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          com.seabrief.Models.LogData.DatabaseFile, com.seabrief.Models.LogData.DatabaseFile.Builder, com.seabrief.Models.LogData.DatabaseFileOrBuilder> 
+          com.seabrief.Services.Models.LogData.DatabaseFile, com.seabrief.Services.Models.LogData.DatabaseFile.Builder, com.seabrief.Services.Models.LogData.DatabaseFileOrBuilder> 
           getDatabasesFieldBuilder() {
         if (databasesBuilder_ == null) {
           databasesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              com.seabrief.Models.LogData.DatabaseFile, com.seabrief.Models.LogData.DatabaseFile.Builder, com.seabrief.Models.LogData.DatabaseFileOrBuilder>(
+              com.seabrief.Services.Models.LogData.DatabaseFile, com.seabrief.Services.Models.LogData.DatabaseFile.Builder, com.seabrief.Services.Models.LogData.DatabaseFileOrBuilder>(
                   databases_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -6579,12 +6579,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.DatabaseResponse)
-    private static final com.seabrief.Models.LogData.DatabaseResponse DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.DatabaseResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.DatabaseResponse();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.DatabaseResponse();
     }
 
-    public static com.seabrief.Models.LogData.DatabaseResponse getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.DatabaseResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6620,7 +6620,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.DatabaseResponse getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.DatabaseResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6690,15 +6690,15 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_LogExtractRequest_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_LogExtractRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_LogExtractRequest_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_LogExtractRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.LogExtractRequest.class, com.seabrief.Models.LogData.LogExtractRequest.Builder.class);
+              com.seabrief.Services.Models.LogData.LogExtractRequest.class, com.seabrief.Services.Models.LogData.LogExtractRequest.Builder.class);
     }
 
     private int bitField0_;
@@ -6842,10 +6842,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.LogExtractRequest)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.LogExtractRequest)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.LogExtractRequest other = (com.seabrief.Models.LogData.LogExtractRequest) obj;
+      com.seabrief.Services.Models.LogData.LogExtractRequest other = (com.seabrief.Services.Models.LogData.LogExtractRequest) obj;
 
       if (!getName()
           .equals(other.getName())) return false;
@@ -6888,69 +6888,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.LogExtractRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.LogExtractRequest parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6963,7 +6963,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.LogExtractRequest prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.LogExtractRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -6984,18 +6984,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.LogExtractRequest)
-        com.seabrief.Models.LogData.LogExtractRequestOrBuilder {
+        com.seabrief.Services.Models.LogData.LogExtractRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_LogExtractRequest_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_LogExtractRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_LogExtractRequest_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_LogExtractRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.LogExtractRequest.class, com.seabrief.Models.LogData.LogExtractRequest.Builder.class);
+                com.seabrief.Services.Models.LogData.LogExtractRequest.class, com.seabrief.Services.Models.LogData.LogExtractRequest.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.LogExtractRequest.newBuilder()
@@ -7022,17 +7022,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_LogExtractRequest_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_LogExtractRequest_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.LogExtractRequest getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.LogExtractRequest.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.LogExtractRequest getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.LogExtractRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.LogExtractRequest build() {
-        com.seabrief.Models.LogData.LogExtractRequest result = buildPartial();
+      public com.seabrief.Services.Models.LogData.LogExtractRequest build() {
+        com.seabrief.Services.Models.LogData.LogExtractRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -7040,14 +7040,14 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.LogExtractRequest buildPartial() {
-        com.seabrief.Models.LogData.LogExtractRequest result = new com.seabrief.Models.LogData.LogExtractRequest(this);
+      public com.seabrief.Services.Models.LogData.LogExtractRequest buildPartial() {
+        com.seabrief.Services.Models.LogData.LogExtractRequest result = new com.seabrief.Services.Models.LogData.LogExtractRequest(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.seabrief.Models.LogData.LogExtractRequest result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.LogExtractRequest result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.name_ = name_;
@@ -7068,16 +7068,16 @@ public final class LogData {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.LogExtractRequest) {
-          return mergeFrom((com.seabrief.Models.LogData.LogExtractRequest)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.LogExtractRequest) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.LogExtractRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.LogExtractRequest other) {
-        if (other == com.seabrief.Models.LogData.LogExtractRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.LogExtractRequest other) {
+        if (other == com.seabrief.Services.Models.LogData.LogExtractRequest.getDefaultInstance()) return this;
         if (!other.getName().isEmpty()) {
           name_ = other.name_;
           bitField0_ |= 0x00000001;
@@ -7347,12 +7347,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.LogExtractRequest)
-    private static final com.seabrief.Models.LogData.LogExtractRequest DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.LogExtractRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.LogExtractRequest();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.LogExtractRequest();
     }
 
-    public static com.seabrief.Models.LogData.LogExtractRequest getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.LogExtractRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7388,7 +7388,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.LogExtractRequest getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.LogExtractRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7460,15 +7460,15 @@ public final class LogData {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_LogExtractResponse_descriptor;
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_LogExtractResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_LogExtractResponse_fieldAccessorTable
+      return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_LogExtractResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.seabrief.Models.LogData.LogExtractResponse.class, com.seabrief.Models.LogData.LogExtractResponse.Builder.class);
+              com.seabrief.Services.Models.LogData.LogExtractResponse.class, com.seabrief.Services.Models.LogData.LogExtractResponse.Builder.class);
     }
 
     public static final int NAME_FIELD_NUMBER = 1;
@@ -7630,10 +7630,10 @@ public final class LogData {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.seabrief.Models.LogData.LogExtractResponse)) {
+      if (!(obj instanceof com.seabrief.Services.Models.LogData.LogExtractResponse)) {
         return super.equals(obj);
       }
-      com.seabrief.Models.LogData.LogExtractResponse other = (com.seabrief.Models.LogData.LogExtractResponse) obj;
+      com.seabrief.Services.Models.LogData.LogExtractResponse other = (com.seabrief.Services.Models.LogData.LogExtractResponse) obj;
 
       if (!getName()
           .equals(other.getName())) return false;
@@ -7669,69 +7669,69 @@ public final class LogData {
       return hash;
     }
 
-    public static com.seabrief.Models.LogData.LogExtractResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseFrom(byte[] data)
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseDelimitedFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.seabrief.Models.LogData.LogExtractResponse parseFrom(
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7744,7 +7744,7 @@ public final class LogData {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.seabrief.Models.LogData.LogExtractResponse prototype) {
+    public static Builder newBuilder(com.seabrief.Services.Models.LogData.LogExtractResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -7765,18 +7765,18 @@ public final class LogData {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.seabrief.Models.LogExtractResponse)
-        com.seabrief.Models.LogData.LogExtractResponseOrBuilder {
+        com.seabrief.Services.Models.LogData.LogExtractResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_LogExtractResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_LogExtractResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_LogExtractResponse_fieldAccessorTable
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_LogExtractResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.seabrief.Models.LogData.LogExtractResponse.class, com.seabrief.Models.LogData.LogExtractResponse.Builder.class);
+                com.seabrief.Services.Models.LogData.LogExtractResponse.class, com.seabrief.Services.Models.LogData.LogExtractResponse.Builder.class);
       }
 
       // Construct using com.seabrief.Models.LogData.LogExtractResponse.newBuilder()
@@ -7803,17 +7803,17 @@ public final class LogData {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.seabrief.Models.LogData.internal_static_com_seabrief_Models_LogExtractResponse_descriptor;
+        return com.seabrief.Services.Models.LogData.internal_static_com_seabrief_Models_LogExtractResponse_descriptor;
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.LogExtractResponse getDefaultInstanceForType() {
-        return com.seabrief.Models.LogData.LogExtractResponse.getDefaultInstance();
+      public com.seabrief.Services.Models.LogData.LogExtractResponse getDefaultInstanceForType() {
+        return com.seabrief.Services.Models.LogData.LogExtractResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.LogExtractResponse build() {
-        com.seabrief.Models.LogData.LogExtractResponse result = buildPartial();
+      public com.seabrief.Services.Models.LogData.LogExtractResponse build() {
+        com.seabrief.Services.Models.LogData.LogExtractResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -7821,14 +7821,14 @@ public final class LogData {
       }
 
       @java.lang.Override
-      public com.seabrief.Models.LogData.LogExtractResponse buildPartial() {
-        com.seabrief.Models.LogData.LogExtractResponse result = new com.seabrief.Models.LogData.LogExtractResponse(this);
+      public com.seabrief.Services.Models.LogData.LogExtractResponse buildPartial() {
+        com.seabrief.Services.Models.LogData.LogExtractResponse result = new com.seabrief.Services.Models.LogData.LogExtractResponse(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.seabrief.Models.LogData.LogExtractResponse result) {
+      private void buildPartial0(com.seabrief.Services.Models.LogData.LogExtractResponse result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.name_ = name_;
@@ -7846,16 +7846,16 @@ public final class LogData {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.seabrief.Models.LogData.LogExtractResponse) {
-          return mergeFrom((com.seabrief.Models.LogData.LogExtractResponse)other);
+        if (other instanceof com.seabrief.Services.Models.LogData.LogExtractResponse) {
+          return mergeFrom((com.seabrief.Services.Models.LogData.LogExtractResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.seabrief.Models.LogData.LogExtractResponse other) {
-        if (other == com.seabrief.Models.LogData.LogExtractResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.seabrief.Services.Models.LogData.LogExtractResponse other) {
+        if (other == com.seabrief.Services.Models.LogData.LogExtractResponse.getDefaultInstance()) return this;
         if (!other.getName().isEmpty()) {
           name_ = other.name_;
           bitField0_ |= 0x00000001;
@@ -8159,12 +8159,12 @@ public final class LogData {
     }
 
     // @@protoc_insertion_point(class_scope:com.seabrief.Models.LogExtractResponse)
-    private static final com.seabrief.Models.LogData.LogExtractResponse DEFAULT_INSTANCE;
+    private static final com.seabrief.Services.Models.LogData.LogExtractResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.seabrief.Models.LogData.LogExtractResponse();
+      DEFAULT_INSTANCE = new com.seabrief.Services.Models.LogData.LogExtractResponse();
     }
 
-    public static com.seabrief.Models.LogData.LogExtractResponse getDefaultInstance() {
+    public static com.seabrief.Services.Models.LogData.LogExtractResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8200,7 +8200,7 @@ public final class LogData {
     }
 
     @java.lang.Override
-    public com.seabrief.Models.LogData.LogExtractResponse getDefaultInstanceForType() {
+    public com.seabrief.Services.Models.LogData.LogExtractResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 

@@ -7,14 +7,14 @@ RUN apt-get update && apt-get install -y mosquitto
 # Copy your Java application JAR file to the container
 COPY your-application.jar /app/your-application.jar
 
-# Copy Mosquitto configuration file
-COPY mosquitto.conf /etc/mosquitto/mosquitto.conf
-
 # Copy environment variables from .env file
 COPY .env /app/.env
 
 # Source environment variables
 RUN . /app/.env
+
+# Copy Mosquitto configuration file
+COPY $MOSQUITTO_CONF /etc/mosquitto/mosquitto.conf
 
 # Mount specific directories using environment variables
 VOLUME $LOG_DATA_DIR

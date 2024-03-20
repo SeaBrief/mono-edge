@@ -4,10 +4,10 @@ import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
-import com.seabrief.Models.MonitorData.OSPayload;
 import com.seabrief.Monitor.Parsers.OSRelease;
 import com.seabrief.Monitor.Parsers.OSReleaseExtractor;
 import com.seabrief.Services.MQTT.Pattern.MessageBuilder;
+import com.seabrief.Services.Models.MonitorData.OSPayload;
 import com.seabrief.Services.Tools.Logger;
 
 

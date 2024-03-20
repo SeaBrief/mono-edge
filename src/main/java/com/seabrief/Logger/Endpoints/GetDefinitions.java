@@ -7,10 +7,10 @@ import org.eclipse.paho.mqttv5.common.MqttMessage;
 
 import com.seabrief.Logger.Models.SignalMetadata;
 import com.seabrief.Logger.Parser.Parser;
-import com.seabrief.Models.LogData.Signal;
-import com.seabrief.Models.LogData.SignalsResponse;
 import com.seabrief.Services.MQTT.Pattern.IMessageReceiver;
 import com.seabrief.Services.MQTT.Pattern.MessageBuilder;
+import com.seabrief.Services.Models.LogData.Signal;
+import com.seabrief.Services.Models.LogData.SignalsResponse;
 import com.seabrief.Services.Tools.Logger;
 import com.seabrief.Services.Tools.MQTTUtils;
 

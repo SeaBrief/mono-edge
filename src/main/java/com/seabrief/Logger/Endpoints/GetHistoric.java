@@ -9,11 +9,11 @@ import java.util.stream.Collectors;
 import org.eclipse.paho.mqttv5.common.MqttMessage;
 
 import com.seabrief.Logger.Parser.Parser;
-import com.seabrief.Models.LogData.RangeRequest;
-import com.seabrief.Models.LogData.TimeseriesResponse;
 import com.seabrief.Services.Compression.Delta2;
 import com.seabrief.Services.MQTT.Pattern.IMessageReceiver;
 import com.seabrief.Services.MQTT.Pattern.MessageBuilder;
+import com.seabrief.Services.Models.LogData.RangeRequest;
+import com.seabrief.Services.Models.LogData.TimeseriesResponse;
 import com.seabrief.Services.Tools.Logger;
 import com.seabrief.Services.Tools.MQTTUtils;
 

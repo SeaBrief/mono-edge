@@ -19,7 +19,20 @@ import com.seabrief.Services.MQTT.Pattern.MessageAggregator;
 import com.seabrief.Services.MQTT.Pool.MQTTPool;
 import com.seabrief.Services.Tools.Logger;
 
-
+/**
+ * MQTT Client, with Pool
+ * <p>
+ * Wrapper for paho MQTTv5 Client
+ * <p>
+ * Example usage:
+ * <pre>
+ * {@code
+ * 
+ * MQTTClient client = MQTTClient.getInstance()
+ * 
+ * }
+ * </pre>
+ */
 public class MQTTClient {
     private static MQTTClient instance = null;
     private MqttAsyncClient client = null;
@@ -28,6 +41,14 @@ public class MQTTClient {
     private MessageAggregator aggregator = new MessageAggregator();
 
     private MQTTClient() {
+        try {
+            this.connect(new MQTTOptions()
+                    .setAddress("tcp://127.0.0.1:1883")
+                    .setClient("MonoEdge")
+                    .setPoolSize(4));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public static MQTTClient getInstance() {
@@ -67,7 +88,8 @@ public class MQTTClient {
         settings.setAutomaticReconnect(true);
         settings.setAutomaticReconnectDelay(60, 120);
 
-        client.connect(settings).waitForCompletion(10000);;
+        client.connect(settings).waitForCompletion(10000);
+        ;
 
         CompletableFuture<Void> all = CompletableFuture.allOf(futures.toArray(new CompletableFuture[futures.size()]));
 

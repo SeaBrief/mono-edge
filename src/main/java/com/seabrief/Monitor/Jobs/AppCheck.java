@@ -4,11 +4,11 @@ import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
-import com.seabrief.Models.MonitorData.AppPayload;
-import com.seabrief.Models.MonitorData.Application;
 import com.seabrief.Monitor.Parsers.CDPExtractor;
 import com.seabrief.Monitor.Parsers.LogExtractor;
 import com.seabrief.Services.MQTT.Pattern.MessageBuilder;
+import com.seabrief.Services.Models.MonitorData.AppPayload;
+import com.seabrief.Services.Models.MonitorData.Application;
 import com.seabrief.Services.Tools.Logger;
 
 public class AppCheck implements Job {

@@ -16,6 +16,19 @@ import com.seabrief.Logger.Parser.Versions.CDPSplit;
 import com.seabrief.Logger.Parser.Versions.ICDPParser;
 import com.seabrief.Logger.Parser.Versions.Discovery;
 
+/**
+ * Wrapper class for all types of CDP Data Stores
+ * <p>
+ * Loads all signals metadata as well as Database locations,
+ * given a path to the Logger Applications Components directory
+ * <p>
+ * Example usage:
+ * <pre>
+ * {@code
+ * Example example = new Example();
+ * }
+ * </pre>
+ */
 public class Parser implements ICDPParser {
     private static Parser instance = null;
 

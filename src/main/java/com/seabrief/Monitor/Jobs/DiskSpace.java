@@ -6,9 +6,9 @@ import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
-import com.seabrief.Models.MonitorData.Disk;
-import com.seabrief.Models.MonitorData.DiskPayload;
 import com.seabrief.Services.MQTT.Pattern.MessageBuilder;
+import com.seabrief.Services.Models.MonitorData.Disk;
+import com.seabrief.Services.Models.MonitorData.DiskPayload;
 import com.seabrief.Services.Tools.Logger;
 
 public class DiskSpace implements Job {
