@@ -25,7 +25,9 @@ import com.seabrief.Logger.Parser.Versions.Discovery;
  * Example usage:
  * <pre>
  * {@code
- * Example example = new Example();
+ * 
+ * Parser parser = Parser.getInstance()
+ * 
  * }
  * </pre>
  */

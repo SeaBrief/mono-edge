@@ -65,7 +65,7 @@ public class MessageAggregator {
         try {
             Pattern.compile(str);
             return true;
-        } catch (PatternSyntaxException e) {
+        } catch (PatternSyntaxException ex) {
             return false;
         }
     }

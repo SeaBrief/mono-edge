@@ -29,12 +29,14 @@ public class DatabaseTest {
             }
 
             if (compact != CDPDataStore.COMPACT) {
-                throw new Exception("Failed to recognize Basic Datastore");
+                throw new Exception("Failed to recognize Compact Datastore");
             }
 
             if (split != CDPDataStore.SPLIT) {
-                throw new Exception("Failed to recognize Basic Datastore");
+                throw new Exception("Failed to recognize Split Datastore");
             }
+
+            assertTrue(true);
         } catch (Exception ex) {
             ex.printStackTrace();
             assertTrue(false);
@@ -51,6 +53,8 @@ public class DatabaseTest {
             HashMap<Long, Double> values = basic.getRange("CTRL1_CPU", bounds[1] - 2 * 60 * 1000, bounds[1]);
 
             System.out.println("Basic range search returned " + values.size() + " values");
+
+            assertTrue(true);
         } catch (Exception ex) {
             ex.printStackTrace();
             assertTrue(false);
@@ -67,6 +71,8 @@ public class DatabaseTest {
             HashMap<Long, Double> values = basic.getRange("CPULoad", bounds[1] - 2 * 60 * 1000, bounds[1]);
 
             System.out.println("Compact range search returned " + values.size() + " values");
+
+            assertTrue(true);
         } catch (Exception ex) {
             ex.printStackTrace();
             assertTrue(false);
@@ -83,6 +89,8 @@ public class DatabaseTest {
             HashMap<Long, Double> values = basic.getRange("CTRL_CPULoad", bounds[1] - 2 * 60 * 1000, bounds[1]);
 
             System.out.println("Split range search returned " + values.size() + " values");
+
+            assertTrue(true);
         } catch (Exception ex) {
             ex.printStackTrace();
             assertTrue(false);

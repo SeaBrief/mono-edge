@@ -46,8 +46,8 @@ public class MQTTClient {
                     .setAddress("tcp://127.0.0.1:1883")
                     .setClient("MonoEdge")
                     .setPoolSize(4));
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception ex) {
+            ex.printStackTrace();
         }
     }
 

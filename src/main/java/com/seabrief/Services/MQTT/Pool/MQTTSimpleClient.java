@@ -58,8 +58,8 @@ public class MQTTSimpleClient {
                 connected = false;
             }
 
-            public void mqttErrorOccurred(MqttException exception) {
-                Logger.error("MQTT " + client.getClientId() + " error: \n" + exception.toString());
+            public void mqttErrorOccurred(MqttException ex) {
+                Logger.error("MQTT " + client.getClientId() + " error: \n" + ex.toString());
                 started.complete(false);
             }
 

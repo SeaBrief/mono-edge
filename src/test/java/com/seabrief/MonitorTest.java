@@ -34,6 +34,7 @@ public class MonitorTest
             extractor.extract();
 
             System.out.println("Found " + extractor.getApplications().size() + " Applications");
+            
             assertTrue(true);
         } catch (Exception ex) {
             ex.printStackTrace();

@@ -1,31 +1,16 @@
-# Use a base image with Java installed
-FROM openjdk:11-jre-slim
+# Start with a base image that includes the Java runtime environment
+FROM openjdk:11
 
-# Install Mosquitto server and client
-RUN apt-get update && apt-get install -y mosquitto
-
-# Copy your Java application JAR file to the container
-COPY your-application.jar /app/your-application.jar
-
-# Copy environment variables from .env file
-COPY .env /app/.env
-
-# Source environment variables
-RUN . /app/.env
-
-# Copy Mosquitto configuration file
-COPY $MOSQUITTO_CONF /etc/mosquitto/mosquitto.conf
-
-# Mount specific directories using environment variables
-VOLUME $LOG_DATA_DIR
-VOLUME $LOGGER_APP_DIR
-VOLUME $LOGS_DIR
-
-# Redirect stdout and stderr of Mosquitto broker to mosquitto.log
-RUN mkdir -p $LOGS_DIR && touch $LOGS_DIR/mosquitto.log && ln -sf /proc/1/fd/1 $LOGS_DIR/mosquitto.log && ln -sf /proc/1/fd/2 $LOGS_DIR/mosquitto.log
-
-# Set working directory
+# Set the working directory inside the container
 WORKDIR /app
 
-# Start Mosquitto broker and then run Java application
-CMD ["sh", "-c", "mosquitto -c /etc/mosquitto/mosquitto.conf & java -jar your-application.jar 1>$LOGS_DIR/seabrief.log 2>&1"]
+# Copy the JAR file of your Java application into the container
+COPY your-java-app.jar /app/your-java-app.jar
+
+# Mount the database directory, config file directory, and env file
+VOLUME /app/database
+VOLUME /app/config
+VOLUME /app/env
+
+# Set the entry point and command to run your Java application
+ENTRYPOINT ["java", "-jar", "/app/your-java-app.jar"]
